@@ -1,6 +1,6 @@
 # 🚀 FastAPI + Flask Starter Project
 
-This repository provides a base setup for a backend combining **FastAPI** and **Flask** — ideal for teams experimenting or integrating both frameworks.
+This repository provides a base setup for a backend combining **FastAPI** and **Flask** — ideal for teams experimenting with or integrating both frameworks.
 
 ---
 
@@ -25,7 +25,10 @@ cd fastapi-flask-starter
 bash
 Copy code
 python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
+# On Windows
+venv\Scripts\activate
 3. Install dependencies
 bash
 Copy code
@@ -37,7 +40,7 @@ Duplicate example.env and rename it to .env, then fill in your values.
 bash
 Copy code
 uvicorn fastapi.main:app --reload
-6. Run flask
+6. Run Flask
 bash
 Copy code
-python flask/app.py 
+python flask/app.py
