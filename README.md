@@ -22,25 +22,22 @@ Copy code
 git clone https://github.com/<YOUR_USERNAME>/fastapi-flask-starter.git
 cd fastapi-flask-starter
 2. Create a virtual environment
-bash
-Copy code
+```bash
 python -m venv venv
 # On macOS/Linux
 source venv/bin/activate
 # On Windows
 venv\Scripts\activate
 3. Install dependencies
-bash
-Copy code
+```bash
 pip install -r requirements.txt
 4. Configure environment variables
 Duplicate example.env and rename it to .env, then fill in your values.
 
 5. Run FastAPI
-bash
-Copy code
+```bash
 uvicorn fastapi.main:app --reload
 6. Run Flask
-bash
-Copy code
+```bash
+
 python flask/app.py
