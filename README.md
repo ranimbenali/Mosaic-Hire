@@ -36,8 +36,8 @@ Duplicate example.env and rename it to .env, then fill in your values.
 5. Run FastAPI
 bash
 Copy code
-uvicorn Fast-api.main:app --reload
-6. Run Flask
+uvicorn fastapi.main:app --reload
+6. Run flask
 bash
 Copy code
-python Flask/app.py 
+python flask/app.py 
