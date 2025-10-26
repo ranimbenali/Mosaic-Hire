@@ -10,37 +10,32 @@ backend/
 ├── fastapi/ # FastAPI service
 └── flask/ # Flask service
 
-yaml
-Copy code
 
----
 
 ## 🧰 Setup Instructions
 
 ### 1. Clone the repository
+yaml
+Copy code
+
+---
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/fastapi-flask-starter.git
-cd fastapi-flask-starter
+git clone https://github.com/ranimbenali/Mosaic-hire.git
+cd Mosaic-hire
 2. Create a virtual environment
-bash
-Copy code
+
 python -m venv venv
-# On macOS/Linux
-source venv/bin/activate
-# On Windows
-venv\Scripts\activate
+source venv/bin/activate   # On Windows: venv\Scripts\activate
 3. Install dependencies
-bash
-Copy code
-pip install -r requirements.txt
+
+pip install -r /Backend/requirements.txt
 4. Configure environment variables
 Duplicate example.env and rename it to .env, then fill in your values.
 
 5. Run FastAPI
-bash
-Copy code
+
 uvicorn fastapi.main:app --reload
-6. Run Flask
-bash
-Copy code
-python flask/app.py
+6. Run flask
+
+
+python Flask/app.py 
